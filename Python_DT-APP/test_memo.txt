@@ -1,0 +1,82 @@
+■付属
+・データのDL
+https://www.shoeisha.co.jp/book/download/9784798174990
+・会員特典のDL
+https://www.shoeisha.co.jp/book/present/9784798174990
+■PySimpleGUIライブラリ
+python3 -m pip install pysimplegui
+→DTアプリのGUI
+
+python3 -m pip install chardet
+→テキストファイルのコーディングを調べる
+
+python3 -m pip install pillow
+→画像の処理を行う
+
+python3 -m pip install qrcode
+→QRコードを生成する
+
+◆202,203
+・PySimpleGUIの省略形
+Input       = I,In
+Button      = B,Btn
+Text        = T,Txt
+key         = k
+Image       = Im
+Multiline   = ML 
+
+◆203,204
+.PySimpleGUIの配色、サイズの指定
+
+◆209
+・Layoutのリストは[](ブラケット)内で1行を表している。
+
+◆210
+・文字列のレイアウト　
+sg.Text("<表示文字列>", size=(<幅>,<高さ>), justification=""<left>/<center>/<right>)
+sg.Input("<表示文字列>", size=(<幅>,<高さ>), justification=""<left>/<center>/<right>)
+
+◆211
+・色々な部品テスト
+sg.T(”テキスト”)
+sg.I(”入力欄”)
+sg.ML(”複数行テキスト　1行目\n2行目” size=(30,3))
+sg.Im(”画像”)
+
+◆301
+・f文字列(フォーマット済み文字列リテラル)
+　f”こんにちは{変数}さん”
+・f文字列色々
+
+◆401
+.datetimeライブラリ色々
+
+◆402
+・ストップウォッチ
+
+◆404
+・XXまであとD HH:MM　の表示
+
+◆405
+・カウントUp
+
+◆clock.py
+・時計アプリ
+
+◆stopwotch.py
+・ストップウォッチアプリ
+
+◆timetable.py
+・タイムテーブル
+→実用できるようにUpDate
+
+◆501-504
+・ファイルの読み込み
+・フォルダ表示用GUIの作成
+
+◆loadtext texteditor
+・ファイルの読み込み
+・ファイルの編集、保存
+
+
+
